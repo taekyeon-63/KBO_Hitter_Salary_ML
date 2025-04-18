@@ -69,7 +69,7 @@
 
 ## 📈 모델 성능 비교
 
-<img src="./images/model_comparison.png" width="700"/>
+
 
 | Model     | RMSE   | MAE    | R²     |
 |-----------|--------|--------|--------|
@@ -83,9 +83,11 @@
 
 ## 🔍 변수 중요도 분석
 
+![SHAP](pdf_image/10.png)
+
 ### 🧠 SHAP Summary Plot
 
-<img src="./images/shap_summary.png" width="700"/>
+
 
 - `Prev_Salary`가 예측 연봉에 가장 큰 영향
 - `FA`, `Age`, `Year` 등도 유의미한 변수
@@ -93,7 +95,11 @@
 
 ---
 
+![Permutation Importance](pdf_image/11.png)
+
 ### 🧪 Permutation Importance
+
+
 
 <img src="./images/permutation_importance.png" width="700"/>
 
@@ -104,7 +110,12 @@
 
 ## 📊 예측 결과 분석
 
+![Result1](pdf_image/12.png)
+![Result2](pdf_image/13.png)
+
 ### 예측값 vs 실제값 비교 결과 요약
+
+
 
 <img src="./images/prediction_error.png" width="700"/>
 
@@ -115,6 +126,8 @@
 
 ---
 
+![Result3](pdf_image/14.png)
+
 ## ✅ 결론
 
 - CatBoost 모델은 타자 연봉 예측에 있어서 **높은 설명력(R² ≈ 92.5%)**을 보였고,  
@@ -124,6 +137,8 @@
 
 ---
 
+![Limitation](pdf_image/15.png)
+
 ## ⚠️ 한계점
 
 - **외부 요인 미반영**: 시장 가치, 팬 인기, 팀 재정 등 비정량 요소 제외
@@ -132,11 +147,6 @@
 
 ---
 
-## 🧾 보고서 전체 보기 (PDF)
-
-📄 [프로젝트 전체 보고서 (PDF)](./project_summary.pdf)
-
----
 
 ## 📬 Contact
 
